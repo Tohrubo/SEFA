@@ -1,0 +1,48 @@
+Judul   : Reposisi Pasar AI dalam Ekonomi Berbiaya Tinggi 2026
+Sumber  : Kompas.com (Kolom)
+Tanggal : 6 Januari 2026
+Topik   : Teknologi Informasi / Kecerdasan Buatan
+URL     : https://money.kompas.com/read/2026/01/06/110350826/reposisi-pasar-ai-dalam-ekonomi-berbiaya-tinggi-2026
+
+ISI ARTIKEL:
+============
+
+Memasuki 2026, pasar kecerdasan buatan (AI) global menghadapi tekanan struktural yang signifikan.
+Biaya komputasi, energi, dan infrastruktur AI terus meningkat seiring meningkatnya kompleksitas
+model dan persaingan sumber daya antar perusahaan teknologi raksasa.
+
+DAMPAK BAGI INDONESIA
+
+Indonesia berada pada posisi yang rentan terhadap transmisi tekanan biaya tersebut. Smartphone dan
+komputer pribadi kini berfungsi sebagai infrastruktur dasar bagi pendidikan, pekerjaan, dan usaha
+kecil. Kenaikan harga perangkat akibat kompetisi global atas sumber daya AI berpotensi memperlebar
+ketimpangan partisipasi digital.
+
+Ketimpangan ini bukan disebabkan oleh kegagalan pasar domestik, melainkan oleh kompetisi global
+atas sumber daya AI yang berada di luar kendali nasional. Indonesia menghadapi dilema: ingin
+mengadopsi AI secara masif, namun bergantung pada ekosistem global yang harganya tidak bisa
+ditentukan sendiri.
+
+FENOMENA "AI TAX"
+
+Fenomena ini sering disebut sebagai "AI Tax" — biaya tidak langsung yang ditanggung oleh pengguna
+akhir akibat investasi besar di infrastruktur AI oleh perusahaan teknologi. Layanan yang semula
+gratis mulai dimonetisasi lebih agresif, dan fitur AI premium menjadi standar baru yang menuntut
+biaya tambahan.
+
+ANCAMAN KETIMPANGAN DIGITAL
+
+Jika tidak ditangani, ketimpangan digital dapat melebar ke dua dimensi:
+1. Ketimpangan antara pengguna yang mampu membayar fitur AI premium vs yang tidak
+2. Ketimpangan antara negara yang memiliki infrastruktur AI mandiri vs yang bergantung impor
+
+REKOMENDASI KEBIJAKAN
+
+Untuk mengatasi hal ini, Indonesia perlu:
+  - Mempercepat pembangunan infrastruktur komputasi lokal
+  - Mengembangkan ekosistem AI nasional yang lebih mandiri
+  - Memberikan subsidi atau insentif akses teknologi untuk UMKM dan pelajar
+  - Memperkuat regulasi yang melindungi konsumen dari praktik "AI Tax" yang tidak transparan
+
+Artikel ini merupakan kolom. Seluruh isi dan opini merupakan pandangan pribadi penulis dan bukan
+cerminan sikap redaksi Kompas.com.

@@ -1,0 +1,48 @@
+Judul   : 6 Tren AI yang Diprediksi Akan Populer pada 2026, Bakal Secanggih Apa?
+Sumber  : Detik.com (detikEdu)
+Tanggal : Desember 2025
+Topik   : Teknologi Informasi / Kecerdasan Buatan
+URL     : https://www.detik.com/edu/detikpedia/d-8246803/6-tren-ai-yang-diprediksi-akan-populer-pada-2026-bakal-secanggih-apa
+
+ISI ARTIKEL:
+============
+
+Kecerdasan buatan atau artificial intelligence (AI) telah berkembang ke ranah berbagai industri.
+Survei McKinsey menunjukkan 78 persen perusahaan atau organisasi di dunia sudah menggunakan AI.
+Orang-orang di seluruh dunia telah mulai menggunakan AI dalam membantu pekerjaan mereka, terutama
+AI generatif.
+
+Lembaga penyedia kursus online asal Amerika Serikat, Coursera, memprediksi tren-tren dalam dunia AI
+yang akan populer atau menjadi pembahasan pada 2026. Berikut enam tren tersebut:
+
+1. AI GENERATIF SEMAKIN TERINTEGRASI
+AI generatif seperti ChatGPT, DALL-E, dan Google Bard akan semakin terintegrasi dalam banyak
+aplikasi sehingga dapat diandalkan lebih banyak orang — tidak hanya profesional, tetapi juga
+pelajar, pengusaha kecil, dan pekerja lepas.
+
+2. AI MULTIMODAL
+Model bahasa besar (LLM) saat ini hanya memproses data teks, namun AI multimodal dapat menangkap
+informasi dari berbagai jenis data seperti audio, video, dan gambar. Jenis AI ini diprediksi akan
+semakin canggih dan berkembang pesat. Sebagai contoh, smartphone kini sudah bisa mengenali objek
+dalam foto karena dapat memproses gambar, teks metadata, dan data pencarian secara bersamaan.
+Dengan AI multimodal, perusahaan bisa menganalisis lebih banyak jenis data untuk pengambilan
+keputusan yang lebih strategis.
+
+3. AI UNTUK SAINS DAN KESEHATAN
+AI diprediksi akan semakin membantu bidang sains dan layanan kesehatan, mulai dari penemuan obat
+baru, diagnosis medis berbasis gambar, hingga simulasi ilmiah yang kompleks.
+
+4. PERGESERAN KEBUTUHAN TENAGA KERJA
+Dengan keterampilan AI, perusahaan akan membutuhkan pekerja yang fokus pada kreativitas, kecerdasan
+emosional, dan penilaian moral — kemampuan yang belum bisa sepenuhnya digantikan oleh mesin.
+
+5. REGULASI AI GLOBAL
+Pada Maret 2024, Uni Eropa membahas rancangan undang-undang AI komprehensif untuk mengatur
+penggunaan AI dan mengatasi kekhawatiran konsumen. Beberapa negara juga mulai mengatur pengawasan
+penggunaan AI karena tanpa regulasi, manipulasi data, misinformasi, bias, dan risiko privasi dapat
+menimbulkan risiko sosial yang lebih besar.
+
+6. ADOPSI AI MELUAS KE SEMUA SEKTOR
+Dari manufaktur, keuangan, pendidikan, hingga hiburan, adopsi AI akan semakin merata. Perangkat
+yang tidak menggunakan AI secara adil berisiko terhadap diskriminasi atau masalah hukum karena
+tidak mewakili populasi secara seimbang dalam pengumpulan datanya.
