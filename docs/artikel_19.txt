@@ -1,0 +1,33 @@
+Judul   : Bagaimana AI Membentuk Masa Depan Data Center di Tahun 2026
+Sumber  : Digital Edge Indonesia
+Tanggal : 30 Maret 2026
+Topik   : Teknologi Informasi / Kecerdasan Buatan
+URL     : https://id.digitaledgedc.com/id/infrastruktur-ai/bagaimana-ai-membentuk-masa-depan-data-center-di-tahun-2026
+
+ISI ARTIKEL:
+============
+
+Pesatnya perkembangan kecerdasan buatan (AI) mengubah lanskap industri pusat data (data center)
+secara fundamental pada 2026. Artikel ini mengidentifikasi empat transformasi utama yang didorong
+oleh AI, mulai dari lonjakan kebutuhan daya hingga inovasi pendinginan.
+
+Pertama, lonjakan kebutuhan daya. Konsumsi listrik pusat data global diproyeksikan mencapai 1.050
+terawatt-hours (TWh) pada 2026. AI saat ini menyumbang sekitar 5–15 persen dari konsumsi tersebut,
+dan porsinya berpotensi melonjak hingga 35–50 persen pada 2030 seiring meningkatnya kompleksitas
+model dan beban komputasi.
+
+Kedua, evolusi hyperscale. Perusahaan teknologi besar berencana menanamkan investasi lebih dari
+US$350 miliar untuk pembangunan data center pada tahun berjalan, dan diperkirakan meningkat menjadi
+US$400 miliar pada 2026. Ekspansi besar-besaran ini mencerminkan perlombaan kapasitas komputasi
+untuk mendukung layanan berbasis AI.
+
+Ketiga, inovasi pendinginan. Teknologi pendinginan berbasis cairan (liquid cooling) dapat memberikan
+efisiensi energi 30–50 persen lebih baik dibanding sistem pendinginan udara tradisional. Tahun 2026
+diprediksi menjadi titik transisi penting menuju liquid cooling sebagai standar industri, sekaligus
+menekan konsumsi listrik dan air.
+
+Keempat, eksplorasi data center luar angkasa. Google melalui Project Suncatcher berencana meluncurkan
+peralatan uji coba pertama pada awal 2027, dengan potensi menekan biaya energi hingga sepuluh kali
+lipat. Seluruh tren ini menunjukkan bahwa infrastruktur digital tengah berlomba beradaptasi terhadap
+kebutuhan AI yang terus membesar, termasuk di Indonesia yang permintaan data center-nya melonjak
+seiring pertumbuhan ekonomi digital.
