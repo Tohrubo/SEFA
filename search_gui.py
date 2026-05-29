@@ -465,8 +465,23 @@ class SearchEngineApp(tk.Tk):
 
         else:
 
-            pred_row = tk.Frame(pred_inner, bg=BG_PANEL)
-            pred_row.pack(fill="x", pady=(8, 0))
+            # Wadah prediksi yang bisa di-scroll horizontal (kiri-kanan)
+            # bila jumlah prediksi melebihi lebar panel.
+            pred_wrap = tk.Frame(pred_inner, bg=BG_PANEL)
+            pred_wrap.pack(fill="x", pady=(8, 0))
+
+            pred_canvas = tk.Canvas(pred_wrap, bg=BG_PANEL, height=54,
+                                    highlightthickness=0)
+            pred_hsb = ttk.Scrollbar(pred_wrap, orient="horizontal",
+                                     command=pred_canvas.xview)
+            pred_canvas.configure(xscrollcommand=pred_hsb.set)
+
+            pred_canvas.pack(side="top", fill="x")
+            pred_hsb.pack(side="bottom", fill="x")
+
+            # Frame dalam canvas tempat item-item prediksi disusun
+            pred_row = tk.Frame(pred_canvas, bg=BG_PANEL)
+            pred_canvas.create_window((0, 0), window=pred_row, anchor="nw")
 
             for i, (word, prob) in enumerate(predictions, 1):
 
@@ -496,6 +511,20 @@ class SearchEngineApp(tk.Tk):
                     fg=TEXT_MUTED,
                     font=FONT_SMALL
                 ).pack()
+
+            # Perbarui area scroll setelah semua item terpasang
+            pred_row.bind(
+                "<Configure>",
+                lambda _e, _c=pred_canvas: _c.configure(
+                    scrollregion=_c.bbox("all"))
+            )
+
+            # Scroll horizontal dengan Shift + roda mouse
+            pred_canvas.bind(
+                "<Shift-MouseWheel>",
+                lambda e, _c=pred_canvas: _c.xview_scroll(
+                    int(-1 * (e.delta / 120)), "units")
+            )
 
         tk.Label(hdr, text=f"{len(results)} dokumen ditemukan",
                  bg=BG_DARK, fg=SUCCESS, font=FONT_HEAD).pack(side="left")
