@@ -1,0 +1,33 @@
+Judul   : Kecerdasan Buatan 2026: Indonesia Masih jadi Pasar atau Pencipta Solusi?
+Sumber  : Bisnis.com (Teknologi)
+Tanggal : 1 Januari 2026
+Topik   : Teknologi Informasi / Kecerdasan Buatan
+URL     : https://teknologi.bisnis.com/read/20260101/84/1940895/kecerdasan-buatan-2026-indonesia-masih-jadi-pasar-atau-pencipta-solusi
+
+ISI ARTIKEL:
+============
+
+Tren pengembangan kecerdasan buatan (AI) di Indonesia pada 2026 dinilai akan bergeser dari fase
+eksperimen menuju fokus pada return on investment (ROI) yang terukur. Menurut Bari Arijono, Presiden
+Akademi Kecerdasan Buatan Indonesia (AKBI), terdapat tiga arah utama pengembangan AI tahun ini, yaitu
+Enterprise AI sebagai standar operasional baru, Agentic AI untuk otomatisasi pengambilan keputusan,
+serta Physical AI yang diterapkan di manufaktur, logistik, energi, dan pertanian.
+
+Pergeseran ini menuntut perusahaan untuk mengintegrasikan AI langsung ke proses inti bisnis.
+Perusahaan yang gagal mengadopsi AI berisiko kehilangan efisiensi 20–30 persen dibanding pesaing.
+Manfaat konkret AI mulai terlihat di berbagai sektor: biaya operasional per transaksi di industri
+keuangan dapat ditekan hingga 30–40 persen melalui otomatisasi, average revenue per user (ARPU)
+operator telekomunikasi berpotensi naik 5–10 persen, dan tingkat konversi e-commerce dapat meningkat
+hingga 15–25 persen.
+
+Indonesia memiliki modal besar berupa lebih dari 350 juta koneksi seluler dan sekitar 12 juta
+talenta digital. Namun, ketersediaan talenta AI tingkat lanjut seperti AI engineer dan data
+scientist senior masih di bawah 10 persen dari kebutuhan industri. Kesenjangan ini menjadi salah
+satu penghambat Indonesia untuk naik kelas dari sekadar pasar menjadi pencipta solusi.
+
+Dari sisi infrastruktur, pasar data center Indonesia diproyeksikan melampaui US$3,5 miliar pada
+2026, seiring melonjaknya kebutuhan komputasi untuk AI. Meski demikian, kesiapan data masih menjadi
+pekerjaan rumah: sekitar 70 persen organisasi besar telah memiliki data dalam jumlah besar, tetapi
+kurang dari 40 persen yang benar-benar siap memanfaatkannya untuk AI. Pertanyaan kunci 2026 pun
+mengemuka: akankah Indonesia tetap menjadi konsumen teknologi, atau mulai menjadi produsen solusi
+AI yang berdaulat.
