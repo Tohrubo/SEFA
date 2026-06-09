@@ -25,7 +25,7 @@ from tkinter import ttk, filedialog, messagebox
 from search_engine import (
     build_index,
     search,
-    predict_next,
+    predict_word,
     display_tfidf_table
 )
 
@@ -381,7 +381,7 @@ class SearchEngineApp(tk.Tk):
         # NEXT WORD PREDICTION
         # ==========================================
 
-        predictions = predict_next(query, self.index)
+        predictions = predict_word(query, self.index)
 
         # ==========================================
         # RENDER BOTH
@@ -419,11 +419,12 @@ class SearchEngineApp(tk.Tk):
         self._clear_results()
 
         if not results:
-            tk.Label(self._results_inner,
-                     text=f'\n\nTidak ada dokumen yang cocok\nuntuk query: "{query}"',
-                     bg=BG_DARK, fg=TEXT_SEC,
-                     font=("Segoe UI", 10), justify="center").pack(pady=40)
-            return
+            tk.Label(
+                self._results_inner,
+                text=f'Tidak ada dokumen yang cocok untuk query: "{query}"',
+                bg=BG_DARK,
+                fg=TEXT_SEC
+            ).pack(pady=10)
 
         # Header summary
         hdr = tk.Frame(self._results_inner, bg=BG_DARK, pady=4)
@@ -447,7 +448,7 @@ class SearchEngineApp(tk.Tk):
 
         tk.Label(
             pred_inner,
-            text="PREDIKSI KATA BERIKUTNYA",
+            text="PREDIKSI QUERY",
             bg=BG_PANEL,
             fg=ACCENT,
             font=("Segoe UI Semibold", 9)

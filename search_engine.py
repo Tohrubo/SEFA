@@ -298,26 +298,13 @@ def build_index(folder_path):
     # BUILD GLOBAL TOKEN LIST FOR LANGUAGE MODEL
     # ==========================================================
 
-    all_tokens = []
+    # ==========================================================
+    # CHARACTER N-GRAM INDEX FOR QUERY PREDICTION
+    # ==========================================================
 
-    for tokens in processed_tokens.values():
-        all_tokens.extend(tokens)
+    word_ngram_index = {}
 
-    # ======================
-    # UNIGRAM / BIGRAM / TRIGRAM
-    # ======================
-
-    unigrams = list(ngrams(all_tokens, 1))
-    bigrams  = list(ngrams(all_tokens, 2))
-    trigrams = list(ngrams(all_tokens, 3))
-
-    # ======================
-    # COUNT FREQUENCIES
-    # ======================
-
-    unigram_counts = Counter([u[0] for u in unigrams])
-    bigram_counts  = Counter(bigrams)
-    trigram_counts = Counter(trigrams)
+    # vocabulary later comes from feature_names
 
     # TF
     tf = {doc: compute_tf(tokens) for doc, tokens in processed_tokens.items()}
@@ -340,6 +327,36 @@ def build_index(folder_path):
     tfidf_matrix  = vectorizer.fit_transform(corpus)
     feature_names = vectorizer.get_feature_names_out()
 
+    # ==========================================================
+    # BUILD CHARACTER UNIGRAM / BIGRAM / TRIGRAM INDEX
+    # ==========================================================
+
+    word_ngram_index = {}
+
+    for word in feature_names:
+
+        grams = set()
+
+        # unigram
+        grams.update(
+            "".join(g)
+            for g in ngrams(word, 1)
+        )
+
+        # bigram
+        grams.update(
+            "".join(g)
+            for g in ngrams(word, 2)
+        )
+
+        # trigram
+        grams.update(
+            "".join(g)
+            for g in ngrams(word, 3)
+        )
+
+        word_ngram_index[word] = grams
+
     tfidf_dense      = tfidf_matrix.toarray()
     tfidf_df         = pd.DataFrame(tfidf_dense, index=txt_files, columns=feature_names)
     tfidf_transposed = tfidf_df.T
@@ -355,9 +372,7 @@ def build_index(folder_path):
         "vectorizer"       : vectorizer,
         "tfidf_df"         : tfidf_df,
         "tfidf_transposed" : tfidf_transposed,
-        "unigram_counts" : unigram_counts,
-        "bigram_counts"  : bigram_counts,
-        "trigram_counts" : trigram_counts,
+        "word_ngram_index": word_ngram_index,
     }
 
 
@@ -443,67 +458,50 @@ def display_results(results):
     print("=" * 52 + "\n")
 
 
-def predict_next(query, index, top_n=5):
+def predict_word(query, index, top_n=5):
 
-    tokens = preprocess(query)
+    query = query.lower().strip()
 
-    unigram_counts = index["unigram_counts"]
-    bigram_counts  = index["bigram_counts"]
-    trigram_counts = index["trigram_counts"]
+    if not query:
+        return []
 
-    predictions = {}
+    query_grams = set()
 
-    # ==================================================
-    # CASE 1 : ONE WORD INPUT -> BIGRAM PREDICTION
-    # ==================================================
+    # unigram
+    query_grams.update(
+        "".join(g)
+        for g in ngrams(query, 1)
+    )
 
-    if len(tokens) == 1:
+    # bigram
+    query_grams.update(
+        "".join(g)
+        for g in ngrams(query, 2)
+    )
 
-        word = tokens[0]
+    # trigram
+    query_grams.update(
+        "".join(g)
+        for g in ngrams(query, 3)
+    )
 
-        for bigram in bigram_counts:
+    scores = []
 
-            if bigram[0] == word:
+    for word, word_grams in index["word_ngram_index"].items():
 
-                next_word = bigram[1]
+        if not word.startswith(query):
+            continue
 
-                probability = (
-                    bigram_counts[bigram]
-                    / unigram_counts[word]
-                )
+        overlap = len(query_grams.intersection(word_grams))
 
-                predictions[next_word] = probability
+        scores.append((word, overlap))
 
-    # ==================================================
-    # CASE 2 : TWO+ WORD INPUT -> TRIGRAM PREDICTION
-    # ==================================================
-
-    elif len(tokens) >= 2:
-
-        word1 = tokens[-2]
-        word2 = tokens[-1]
-
-        for trigram in trigram_counts:
-
-            if trigram[0] == word1 and trigram[1] == word2:
-
-                next_word = trigram[2]
-
-                probability = (
-                    trigram_counts[trigram]
-                    / bigram_counts[(word1, word2)]
-                )
-
-                predictions[next_word] = probability
-
-    # SORT HIGHEST PROBABILITY
-    sorted_predictions = sorted(
-        predictions.items(),
+    scores.sort(
         key=lambda x: x[1],
         reverse=True
     )
 
-    return sorted_predictions[:top_n]
+    return scores[:top_n]
 
 
 # =============================================================================
@@ -550,7 +548,7 @@ def run_cli(folder_path):
         # NEXT WORD PREDICTION
         # ==========================================
 
-        predictions = predict_next(query, index)
+        predictions = predict_word(query, index)
 
         print("\n" + "=" * 52)
         print("  PREDIKSI KATA BERIKUTNYA")
@@ -559,8 +557,8 @@ def run_cli(folder_path):
         if not predictions:
             print("  Tidak ada prediksi.")
         else:
-            for i, (word, prob) in enumerate(predictions, 1):
-                print(f"  {i}. {word:<15}  Probabilitas: {prob:.4f}")
+            for i, (word, score) in enumerate(predictions, 1):
+                print(f"  {i}. {word:<20} Score: {score}")
 
         print("=" * 52 + "\n")
 
