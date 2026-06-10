@@ -1,0 +1,20 @@
+Judul   : Fenomena “AI Psychosis” Muncul, Bos Teknologi Jadi Sorotan
+Sumber  : KOMPAS.com
+Tanggal : 1 Juni 2026
+Topik   : Teknologi
+URL     : https://tekno.kompas.com/read/2026/06/01/14050097/fenomena-ai-psychosis-muncul-bos-teknologi-jadi-sorotan.
+
+
+ISI ARTIKEL:
+============
+Gelombang pemutusan hubungan kerja (PHK) massal di industri teknologi terus berlanjut, dan AI kerap dijadikan alasan utama oleh para petinggi perusahaan. Namun di balik keputusan-keputusan besar itu, muncul pertanyaan yang semakin sering disuarakan yaitu apakah para CEO benar-benar memahami kemampuan AI, atau mereka hanya terjebak dalam kondisi yang kini mulai disebut sebagai "AI psychosis", yakni ketika pemimpin perusahaan terlalu percaya diri terhadap AI tanpa benar-benar memahami batas dan risikonya. Lantas, apa sebenarnya yang dimaksud dengan AI psychosis, dan mengapa fenomena ini dinilai berbahaya?
+
+CEO terlalu jauh dari realitas
+
+Aaron Levie, pendiri perusahaan cloud Box, adalah salah satu tokoh yang terang-terangan menyuarakan kekhawatiran ini. Menurutnya, para CEO sangat rentan terjebak dalam AI psychosis karena mereka tidak terlibat langsung dalam pekerjaan teknis sehari-hari.
+
+Mereka mencoba AI, membuat prototipe, lalu langsung berkesimpulan bahwa teknologi ini bisa menggantikan sebagian besar tenaga kerja. Padahal, merekalah orang-orang yang tidak harus menelusuri baris kode, mencari bug, atau memastikan sistem bebas dari kesalahan fatal sebelum benar-benar digunakan.
+
+Gelombang PHK yang mengkhawatirkan Keyakinan yang belum tentu berdasar ini ternyata berdampak nyata. Merangkum TechCrunch, dalam lima bulan pertama 2026 saja, industri teknologi telah mem-PHK 115.430 orang dari 152 perusahaan, hampir menyamai total PHK sepanjang 2025 yang mencapai 124.636 orang. Sebagian besar perusahaan menyebut AI sebagai alasan utama di balik pemangkasan tersebut. Salah satu kasus paling mencolok datang dari CEO ClickUp, Zeb Evans, yang secara terbuka mengumumkan pemecatan 22 persen karyawannya setelah meluncurkan sekitar 3.000 agen AI untuk kebutuhan internal. Evans mengklaim keputusan itu bukan soal efisiensi biaya, melainkan untuk membangun apa yang ia sebut "100x org", sebuah organisasi di mana manusia hanya bertugas mengawasi dan meninjau hasil kerja AI. Sayangnya, data ilmiah tidak mendukung optimisme semacam itu. Sebuah meta-analisis yang diterbitkan California Management Review dari UC Berkeley menyimpulkan tidak ada hubungan yang kuat antara adopsi AI dan peningkatan produktivitas secara keseluruhan. Penelitian dari MIT juga menemukan bahwa agen AI belum mampu mengerjakan tugas dengan kualitas setara manusia di banyak bidang. Para peneliti memperkirakan AI baru bisa menyelesaikan sebagian besar tugas berbasis teks dengan tingkat keberhasilan 80 hingga 95 persen pada 2029, itupun pada standar kualitas minimal. Untuk benar-benar melampaui kemampuan manusia, dibutuhkan beberapa tahun lagi.
+
+Riset Harvard Business Review menambahkan gambaran yang lebih kompleks. Ketika semua orang menggunakan AI untuk menghasilkan lebih banyak output, hambatan justru berpindah ke level eksekutif yang harus menyetujui semua hasil tersebut. Tanpa pengelolaan yang tepat, kondisi ini berpotensi memicu kekacauan di dalam organisasi.

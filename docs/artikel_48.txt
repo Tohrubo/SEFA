@@ -1,0 +1,53 @@
+Judul   : ASUS ExpertBook Ultra Hadir dengan AI 50 TOPS, Bidik Segmen Laptop Bisnis Premium
+Sumber  : detikSumut
+Tanggal : 10 Juni 2026
+Topik   : Teknologi
+URL     : https://www.detik.com/sumut/berita/d-8526657/asus-expertbook-ultra-hadir-dengan-ai-50-tops-bidik-segmen-laptop-bisnis-premium.
+
+ISI ARTIKEL:
+============
+Persaingan laptop bisnis premium semakin ketat seiring meningkatnya kebutuhan perusahaan terhadap perangkat yang tidak hanya menawarkan performa tinggi, tetapi juga keamanan, mobilitas, dan dukungan kecerdasan buatan (AI).
+
+Saat ini, laptop bisnis bersaing dalam menawarkan keamanan tingkat tinggi, mobilitas ekstra, dan integrasi kecerdasan buatan yang mulus.
+
+Di kelas flagship, ASUS baru-baru ini menghadirkan ASUS ExpertBook Ultra sebagai The Flagship of the Industry. Period. Laptop terbaik ASUS ini ditujukan untuk meruntuhkan dominasi kompetitornya.
+
+ASUS ExpertBook Ultra diposisikan untuk mengungguli laptop flagship kompetitornya seperti Lenovo ThinkPad X1 Carbon Gen 13 Aura Edition, Dell Latitude 7450 Premium, HP EliteBook Ultra G1i AI 14, serta sang ikon efisiensi daya, Apple MacBook Air M4 13 inci.
+
+Commercial Director ASUS Indonesia Eric Khoven mengungkapkan bahwa ASUS ExpertBook Ultra dirancang untuk mendukung berbagai kebutuhan profesional, mulai dari produktivitas harian hingga pemanfaatan fitur AI yang semakin banyak digunakan di lingkungan kerja.
+
+"Sebagai fondasi era baru Copilot+ PC, ASUS ExpertBook Ultra mengandalkan prosesor hingga Intel Core Ultra X9 Processor 388H generasi terbaru yang dipadukan dengan Neural Processing Unit atau NPU yang mampu menghasilkan performa hingga 50 Trillion Operations Per Second (TOPS)," sebut Eric Khoven, Commercial Director, ASUS Indonesia.
+
+Eric menambahkan, saat ini di pasaran Indonesia, produk-produk flagship kompetitor masih menggunakan Intel Core Ultra 7 Series 2 yang menghasilkan performa AI NPU hingga 48 TOPS.
+
+"Jika dihadapkan pada skenario multitasking korporat, seperti rapat maraton via Teams sembari mengolah ribuan baris data di Excel dan melakukan supervisi ratusan halaman laporan PowerPoint, ASUS ExpertBook Ultra dapat menjalankannya tanpa masalah," tambah Eric.
+
+"Saat mengaktifkan notulen otomatis berbasis AI, efisiensi chip yang digunakan juga sangat terasa," tambahnya.
+
+Tak hanya itu, Eric menyebut bahwa melalui fitur ASUS AI ExpertMeet, pemrosesan transkripsi, penerjemahan bahasa dan optimasi kamera web secara langsung berjalan sepenuhnya di dalam NPU.
+
+Hal ini membuat prosesor ASUS ExpertBook Ultra tetap dingin dan tidak menguras daya baterai utama, serta jauh mengungguli produk-produk kompetitor dalam hal kekuatan pemrosesan AI lokal.
+
+Selain itu, perbedaan yang paling mencolok dalam skenario penggunaan dunia nyata terlihat jelas ketika perangkat ini dibawa bekerja di luar ruangan dengan mobilitas tinggi.
+
+"ASUS ExpertBook Ultra mendominasi skenario ini berkat terobosan layar Tandem OLED berukuran 14 inci dengan tingkat kecerahan puncak mencapai 1400 nits," kata Eric.
+
+Eric membeberkan bahwa Teknologi Tandem OLED pada ASUS memastikan dokumen hukum, grafik finansial, maupun teks presentasi tetap terlihat sangat tajam dan terbaca dengan sempurna tanpa gangguan refleksi cahaya matahari, mengungguli kenyamanan visual yang ditawarkan oleh perangkat-perangkat flagship kompetitor.
+
+"Keberanian ASUS membawa teknologi Tandem OLED ke dalam segmen laptop kerja merupakan lompatan industri yang masif. Teknologi ini tidak hanya menggandakan kecerahan tetapi juga memperpanjang usia pakai panel secara drastis dari risiko burn-in yang sering menghantui layar OLED konvensional," jelasnya.
+
+Keunggulan komprehensif inilah yang membuat ASUS ExpertBook Ultra sangat layak disebut sebagai The Flagship of the Industry dalam kategori Laptop Bisnis Terbaik masa kini.
+
+Tak hanya itu, dari aspek ketahanan material, laptop berbobot 1,1 kg tersebut juga dibungkus sasis premium yang memenuhi standar militer US MIL-STD 810H, memberikan ketangguhan fisik luar biasa tanpa mengorbankan estetika.
+
+Eric menyebut ASUS ExpertBook dapat bertahan meskipun mendapatkan beban tekanan hingga 100Kg di atasnya.
+
+"Bukan untuk show-off, akan tetapi daya tahan terhadap tekanan hingga 100Kg atau lebih akan sangat berguna saat laptop ditempatkan di dalam tas dan terhimpit dokumen-dokumen lain saat dalam perjalanan bisnis," klaim Eric.
+
+"Dari pengalaman, banyak laptop yang mengalami kerusakan bukan akibat terjatuh atau terinjak, melainkan akibat dimasukkan ke dalam tas yang padat," Lanjutnya.
+
+Selain keunggulan daya tahan material fisik, predikat sebagai pemimpin industri dipertegas oleh fitur keamanan tingkat enterprise dan inovasi fungsional yang dihadirkan ASUS.
+
+Melalui sistem proteksi ASUS ExpertGuardian yang bersertifikasi NIST Level-4, ASUS ExpertBook Ultra memberikan enkripsi data berlapis di level perangkat keras yang menjamin aset digital dan data sensitif perusahaan tidak mudah diretas.
+
+"Secara fisik, laptop memang bisa dicuri. Tetapi data-data yang tersimpan di dalam ASUS ExpertBook Ultra tidak akan dapat diambil oleh pihak yang tidak berwenang, meskipun SSD yang terpasang di dalamnya diambil dan dipasang ke laptop lain," ucap Eric.
