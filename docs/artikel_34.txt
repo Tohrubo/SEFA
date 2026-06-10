@@ -1,0 +1,30 @@
+Judul   : Adopsi AI dan Cloud Meningkat, Kesiapan Infrastruktur Perusahaan Masih Jadi Tantangan
+Sumber  : RealEstat.id
+Tanggal : 4 Januari 2026
+Topik   : Teknologi Informasi
+URL     : https://www.realestat.id/berita-properti/adopsi-ai-dan-cloud-meningkat-kesiapan-infrastruktur-perusahaan-masih-jadi-tantangan/
+
+ISI ARTIKEL:
+============
+
+Perusahaan di Indonesia semakin gencar mengadopsi teknologi kecerdasan buatan (AI) dan komputasi awan
+(cloud computing) untuk meningkatkan efisiensi operasional pada 2026. Namun, laju adopsi yang cepat
+ini belum sepenuhnya diimbangi oleh fondasi infrastruktur teknologi informasi yang matang dan
+terintegrasi.
+
+Direktur PT Nusa Network Prakarsa, Edward, menyoroti bahwa banyak perusahaan masih menghadapi
+persoalan mendasar: jaringan yang belum terintegrasi dengan baik, sistem keamanan yang terfragmentasi,
+serta data yang tersebar di berbagai platform berbeda. Akibatnya, potensi penuh dari AI dan cloud
+belum dapat dimanfaatkan secara optimal.
+
+Tantangan utama bukan terletak pada keputusan untuk mengadopsi teknologi, melainkan pada kesiapan
+ekosistem digital pendukungnya. Banyak organisasi membangun sistem secara parsial, tanpa perencanaan
+arsitektur digital yang kohesif dan menyeluruh. Hal ini berisiko menciptakan inefisiensi baru dan
+celah keamanan, alih-alih meningkatkan produktivitas.
+
+Memasuki 2026, pertanyaan bagi perusahaan tidak lagi "mengapa" harus beralih ke cloud, melainkan
+"seberapa cepat" mereka dapat mengoptimalkannya secara aman. Integrasi multi-cloud dan hybrid cloud
+mulai menjadi standar untuk memastikan fleksibilitas sekaligus keamanan data. Para pelaku industri
+menekankan pentingnya membangun fondasi jaringan, keamanan, dan tata kelola data yang kuat dan
+terintegrasi terlebih dahulu, agar investasi pada AI dan cloud benar-benar memberikan nilai tambah
+bisnis yang nyata dan berkelanjutan.

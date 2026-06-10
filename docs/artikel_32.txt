@@ -1,0 +1,28 @@
+Judul   : Sudah Seluas Apa Cakupan 5G di Indonesia Awal 2026?
+Sumber  : IDN Times
+Tanggal : 27 Maret 2026
+Topik   : Teknologi Informasi
+URL     : https://www.idntimes.com/tech/trend/sudah-seluas-apa-cakupan-5g-di-indonesia-awal-2026-c1c2-01-b11wj-8l50jh
+
+ISI ARTIKEL:
+============
+
+Teknologi 5G di Indonesia terus berkembang sejak pertama kali masuk pada Mei 2021, meluas dari
+kota-kota besar menuju daerah pinggiran. Memasuki awal 2026, cakupan jaringan generasi kelima ini
+makin meluas meski pemerataannya masih menghadapi sejumlah hambatan.
+
+Telkomsel memimpin perluasan jaringan dengan lebih dari 4.000 base transceiver station (BTS) yang
+tersebar di 56 kabupaten/kota. Cakupannya mencakup Jabodetabek, Pekanbaru, Palembang, Semarang,
+Surabaya, Yogyakarta, Denpasar, Makassar, hingga Manado. Operator lain juga memperluas jangkauan;
+Smartfren menjangkau Makassar, Balikpapan, dan Banjarmasin, sementara XL Axiata berkomitmen
+memperluas layanan 5G ke 88 kota dan kabupaten pada 2026.
+
+Meski demikian, pemerataan jaringan 5G masih terkendala beberapa faktor. Keterbatasan infrastruktur,
+kondisi geografis Indonesia yang sulit, tingginya biaya pengembangan, serta dominasi pengguna yang
+masih bertahan di jaringan 4G menjadi tantangan utama. Akibatnya, manfaat 5G belum dapat dinikmati
+secara merata oleh seluruh masyarakat.
+
+Pemerintah dan operator menargetkan percepatan adopsi 5G sepanjang 2026, sejalan dengan kebutuhan
+konektivitas untuk mendukung transformasi digital, industri 4.0, hingga layanan berbasis kecerdasan
+buatan. Perluasan jaringan ini diharapkan menjadi fondasi penting bagi ekonomi digital nasional,
+sekaligus mempersempit kesenjangan akses internet cepat antara wilayah perkotaan dan daerah.

@@ -1,0 +1,30 @@
+Judul   : Contoh Penerapan IoT pada Smart City dan Manfaatnya
+Sumber  : XL Smart for Business
+Tanggal : 30 Mei 2025
+Topik   : Teknologi Informasi
+URL     : https://www.xlsmart.co.id/bisnis/insights/article/contoh-penerapan-iot-pada-smart-city-dan-manfaatnya/
+
+ISI ARTIKEL:
+============
+
+Teknologi Internet of Things (IoT) kini menjadi fondasi utama dalam pengembangan kota cerdas (smart
+city). IoT merupakan jaringan perangkat dan sensor yang saling terhubung untuk mengirim dan menerima
+data, sehingga berbagai layanan kota dapat dikelola secara otomatis, real-time, dan terintegrasi.
+Sejumlah kota di Indonesia seperti Jakarta, Bandung, dan Surabaya telah mulai menerapkannya.
+
+Terdapat beberapa penerapan utama IoT dalam smart city. Pertama, manajemen lalu lintas cerdas, di mana
+kamera CCTV, sensor kendaraan, dan alat pengukur kepadatan saling terhubung untuk menganalisis kondisi
+jalan secara real-time. Kedua, sistem parkir pintar yang mendeteksi ketersediaan ruang parkir. Ketiga,
+pencahayaan jalan otomatis berbasis sensor cahaya dan gerak untuk menghemat energi.
+
+Penerapan lainnya meliputi pengelolaan sampah berbasis sensor yang memberi sinyal saat tempat sampah
+hampir penuh, pemantauan kualitas air, transportasi publik terintegrasi, serta sistem keamanan
+berbasis AI. Seluruh layanan ini bertujuan menjadikan kota lebih efisien, aman, bersih, dan ramah
+lingkungan.
+
+Manfaat IoT bagi smart city sangat komprehensif, mulai dari peningkatan kualitas hidup penduduk,
+efisiensi pengelolaan sumber daya, hingga keterlibatan warga yang lebih aktif. Meski demikian,
+Indonesia masih menghadapi tantangan berupa keterbatasan infrastruktur, isu keamanan data, kurangnya
+sumber daya manusia, dan belum adanya standar interoperabilitas antarperangkat. Ke depan, integrasi
+IoT dengan AI, big data, dan jaringan generasi baru diperkirakan akan mempercepat perwujudan kota
+cerdas di Indonesia.

@@ -1,0 +1,28 @@
+Judul   : Serangan Siber di RI Melonjak hingga 714 Persen, Awal 2026 Tembus 1,52 Miliar
+Sumber  : CNBC Indonesia
+Tanggal : 2 Juni 2026
+Topik   : Teknologi Informasi
+URL     : https://www.cnbcindonesia.com/tech/20260602203559-37-739562/serangan-siber-di-ri-menggila-melonjak-sampai-714-awal-2026-segini
+
+ISI ARTIKEL:
+============
+
+Ancaman keamanan siber di Indonesia meningkat tajam seiring percepatan transformasi digital. Kepala
+Staf Kepresidenan menyatakan serangan siber kini menargetkan individu, lembaga pemerintahan, sektor
+ekonomi, hingga keamanan nasional, dan jumlahnya terus melonjak dari tahun ke tahun.
+
+Sepanjang 2025, tercatat 5,5 miliar serangan siber di Indonesia. Angka ini melonjak hingga 714 persen
+atau sekitar tujuh kali lipat dibandingkan rata-rata tahunan periode 2020–2024. Tren mengkhawatirkan
+ini berlanjut pada 2026. Hanya dalam periode 1 Januari hingga 15 April 2026, sudah tercatat 1,52
+miliar serangan siber, menandakan eskalasi ancaman yang sangat cepat.
+
+Salah satu faktor pendorong utama lonjakan ini adalah pemanfaatan kecerdasan buatan oleh pelaku
+kejahatan siber. Teknologi AI dipakai untuk melakukan pengintaian otomatis, mengembangkan rantai
+eksploitasi, serta membuat serangan phishing yang lebih meyakinkan dalam skala besar, termasuk
+peniruan suara dan video. Akibatnya, serangan dapat terjadi dalam hitungan menit bahkan detik.
+
+Pemerintah mendorong penguatan koordinasi lintas sektor untuk menghadapi ancaman ini. Selain
+infrastruktur pertahanan siber, kesadaran masyarakat juga ditekankan melalui peningkatan literasi
+digital dan pengelolaan data pribadi yang lebih baik. Sektor strategis seperti perbankan, e-commerce,
+pemerintahan, manufaktur, dan energi menjadi target utama, sehingga kesiapan keamanan siber dinilai
+sebagai kebutuhan mendesak sepanjang 2026.

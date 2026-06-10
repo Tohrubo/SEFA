@@ -1,0 +1,30 @@
+Judul   : Sahabat-AI: LLM Open-Source Buatan Indonesia untuk Kedaulatan Digital 2026
+Sumber  : Sultra Media
+Tanggal : 25 Februari 2026
+Topik   : Teknologi Informasi / Kecerdasan Buatan
+URL     : https://www.sultramedia.id/teknologi/mobile/sahabat-ai-large-language-model-open-source-buatan-indonesia-siap-mendukung-kedaulatan-digital-nasional-di-2026/
+
+ISI ARTIKEL:
+============
+
+Kementerian Komunikasi dan Digital bersama PT Indosat meluncurkan Sahabat-AI, sebuah model bahasa
+besar (large language model/LLM) open-source buatan lokal yang dirancang khusus untuk kebutuhan
+Indonesia. Aplikasi ini tersedia di Android dan iOS, dan menjadi langkah strategis membangun
+kemandirian kapabilitas kecerdasan buatan nasional sekaligus mendukung kedaulatan digital pada 2026.
+
+Menteri Komunikasi Meutya Hafid menekankan visi di balik Sahabat-AI, yakni kebutuhan akan AI yang
+benar-benar "paling Indonesia" — dibangun dengan bahasa, nilai, dan budaya bangsa sendiri. Berbeda
+dari model global, Sahabat-AI dirancang memahami konteks keindonesiaan, termasuk dukungan terhadap
+bahasa daerah seperti Jawa dan Sunda di samping Bahasa Indonesia.
+
+Sebagai platform multi-model dan multimodal, Sahabat-AI memungkinkan pengguna beralih dari teks ke
+gambar, teks ke video, melakukan pencarian cerdas, bantuan coding, hingga analisis mendalam dalam satu
+antarmuka terpadu. Sistem ini dilengkapi guardrail berlapis yang disesuaikan dengan norma sosial dan
+standar etika Indonesia, serta dirancang untuk diakses oleh pelajar, kreator, pelaku usaha, dan
+institusi publik.
+
+Sifatnya yang open-source memungkinkan masyarakat luas berkontribusi mengembangkan fitur platform.
+Pengembangan Sahabat-AI dipandang sebagai tonggak penting menuju kedaulatan digital Indonesia,
+memastikan representasi bahasa lokal dalam teknologi AI, sekaligus mengurangi ketergantungan pada
+ekosistem AI global. Inisiatif ini sejalan dengan peta jalan AI nasional yang tengah disusun
+pemerintah untuk periode 2026 dan seterusnya.

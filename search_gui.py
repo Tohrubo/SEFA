@@ -30,19 +30,64 @@ from search_engine import (
 )
 
 
-# ─── Colour palette ──────────────────────────────────────────────────────────
-BG_DARK    = "#0d1117"   # background utama
-BG_PANEL   = "#161b22"   # panel / card
-BG_INPUT   = "#1c2128"   # input field
-BORDER     = "#30363d"   # garis tepi
-ACCENT     = "#e6a817"   # kuning-amber (aksen utama)
-ACCENT2    = "#58a6ff"   # biru terang (aksen sekunder)
-TEXT_PRI   = "#e6edf3"   # teks utama
-TEXT_SEC   = "#8b949e"   # teks sekunder
-TEXT_MUTED = "#484f58"   # teks redup
-SUCCESS    = "#3fb950"   # hijau (similarity tinggi)
-WARNING    = "#d29922"   # kuning (similarity sedang)
-DANGER     = "#f85149"   # merah (similarity rendah)
+# ─── Colour palettes (mode gelap + mode terang) ──────────────────────────────
+# Setiap palette punya kunci yang sama; apply_palette() menyalin salah satu
+# ke variabel global warna yang dipakai seluruh widget.
+DARK = {
+    "BG_DARK": "#0d1117",  # background utama
+    "BG_PANEL": "#161b22",  # panel / card
+    "BG_INPUT": "#1c2128",  # input field
+    "BORDER": "#30363d",  # garis tepi
+    "ACCENT": "#e6a817",  # kuning-amber (aksen utama)
+    "ACCENT_ACTIVE": "#f0b830",  # aksen saat hover
+    "ACCENT2": "#58a6ff",  # biru terang (aksen sekunder)
+    "ON_ACCENT": "#0d1117",  # teks di atas warna aksen
+    "TEXT_PRI": "#e6edf3",  # teks utama
+    "TEXT_SEC": "#8b949e",  # teks sekunder
+    "TEXT_MUTED": "#484f58",  # teks redup
+    "SUCCESS": "#3fb950",  # hijau (similarity tinggi)
+    "WARNING": "#d29922",  # kuning (similarity sedang)
+    "DANGER": "#f85149",  # merah (similarity rendah)
+    "SEL": "#1f3a5f",  # baris terpilih di tabel
+}
+LIGHT = {
+    "BG_DARK": "#f5f6f8",
+    "BG_PANEL": "#ffffff",
+    "BG_INPUT": "#eef0f3",
+    "BORDER": "#d0d7de",
+    "ACCENT": "#9a6700",
+    "ACCENT_ACTIVE": "#bf8700",
+    "ACCENT2": "#0969da",
+    "ON_ACCENT": "#ffffff",
+    "TEXT_PRI": "#1f2328",
+    "TEXT_SEC": "#656d76",
+    "TEXT_MUTED": "#8c959f",
+    "SUCCESS": "#1a7f37",
+    "WARNING": "#9a6700",
+    "DANGER": "#cf222e",
+    "SEL": "#ddf4ff",
+}
+
+# Variabel global warna — diisi oleh apply_palette().
+BG_DARK = BG_PANEL = BG_INPUT = BORDER = ACCENT = ACCENT_ACTIVE = None
+ACCENT2 = ON_ACCENT = TEXT_PRI = TEXT_SEC = TEXT_MUTED = None
+SUCCESS = WARNING = DANGER = SEL = None
+
+
+def apply_palette(name: str):
+    """Salin palette ('dark'/'light') ke variabel global warna."""
+    global BG_DARK, BG_PANEL, BG_INPUT, BORDER, ACCENT, ACCENT_ACTIVE
+    global ACCENT2, ON_ACCENT, TEXT_PRI, TEXT_SEC, TEXT_MUTED
+    global SUCCESS, WARNING, DANGER, SEL
+    p = LIGHT if name == "light" else DARK
+    BG_DARK = p["BG_DARK"]; BG_PANEL = p["BG_PANEL"]; BG_INPUT = p["BG_INPUT"]
+    BORDER = p["BORDER"]; ACCENT = p["ACCENT"]; ACCENT_ACTIVE = p["ACCENT_ACTIVE"]
+    ACCENT2 = p["ACCENT2"]; ON_ACCENT = p["ON_ACCENT"]; TEXT_PRI = p["TEXT_PRI"]
+    TEXT_SEC = p["TEXT_SEC"]; TEXT_MUTED = p["TEXT_MUTED"]; SUCCESS = p["SUCCESS"]
+    WARNING = p["WARNING"]; DANGER = p["DANGER"]; SEL = p["SEL"]
+
+
+apply_palette("dark")
 
 FONT_UI    = ("Segoe UI", 10)
 FONT_MONO  = ("Consolas", 9)
@@ -79,6 +124,10 @@ class SearchEngineApp(tk.Tk):
         super().__init__()
         self.folder  = folder
         self.index   = None
+        self.theme   = "dark"          # mode aktif: "dark" / "light"
+        self._last_query       = None  # disimpan agar bisa render ulang saat ganti tema
+        self._last_results     = None
+        self._last_predictions = None
         self._build_window()
         self._build_layout()
         self._load_index_async()
@@ -112,7 +161,7 @@ class SearchEngineApp(tk.Tk):
                         background=BG_DARK, foreground=ACCENT,
                         relief="flat", font=FONT_HEAD)
         style.map("Treeview",
-                  background=[("selected", "#1f3a5f")],
+                  background=[("selected", SEL)],
                   foreground=[("selected", TEXT_PRI)])
         style.map("Treeview.Heading", background=[("active", BG_INPUT)])
 
@@ -131,6 +180,16 @@ class SearchEngineApp(tk.Tk):
                                     bg=BG_DARK, fg=TEXT_SEC,
                                     font=FONT_SMALL)
         self._lbl_status.pack(side="right", padx=4)
+
+        # Tombol ganti mode terang/gelap
+        theme_text = "☀  Mode Terang" if self.theme == "dark" else "🌙  Mode Gelap"
+        self._btn_theme = tk.Button(header, text=theme_text,
+                                    bg=BG_INPUT, fg=TEXT_SEC, relief="flat",
+                                    font=FONT_SMALL, cursor="hand2",
+                                    activebackground=BORDER,
+                                    activeforeground=TEXT_PRI,
+                                    command=self._toggle_theme)
+        self._btn_theme.pack(side="right", padx=(0, 12))
 
         # Folder selector
         fold_row = tk.Frame(self, bg=BG_DARK)
@@ -197,11 +256,11 @@ class SearchEngineApp(tk.Tk):
         self._entry.bind("<Return>", lambda e: self._do_search())
 
         self._btn_search = tk.Button(entry_row, text="Cari  ▶",
-                                     bg=ACCENT, fg=BG_DARK,
+                                     bg=ACCENT, fg=ON_ACCENT,
                                      relief="flat", font=FONT_HEAD,
                                      cursor="hand2", padx=14, pady=6,
-                                     activebackground="#f0b830",
-                                     activeforeground=BG_DARK,
+                                     activebackground=ACCENT_ACTIVE,
+                                     activeforeground=ON_ACCENT,
                                      command=self._do_search)
         self._btn_search.pack(side="left")
 
@@ -281,6 +340,37 @@ class SearchEngineApp(tk.Tk):
                                    bg=BG_DARK, fg=TEXT_MUTED,
                                    font=FONT_SMALL)
         self._lbl_vocab.pack(anchor="w", pady=(6, 0))
+
+    # ── Ganti tema (gelap/terang) ───────────────────────────────────────────────
+
+    def _toggle_theme(self):
+        # simpan query saat ini supaya tidak hilang setelah rebuild
+        prev_query = self._var_query.get() if hasattr(self, "_var_query") else ""
+
+        self.theme = "light" if self.theme == "dark" else "dark"
+        apply_palette(self.theme)
+
+        # bongkar semua widget lalu bangun ulang dengan palette baru
+        for w in self.winfo_children():
+            w.destroy()
+        self._build_window()
+        self._build_layout()
+
+        if prev_query:
+            self._var_query.set(prev_query)
+
+        # pulihkan status indeks + isi yang sebelumnya tampil
+        if self.index is not None:
+            n_docs  = len(self.index["documents"])
+            n_terms = len(self.index["vocabulary"])
+            self._lbl_status.configure(
+                text=f"✓  {n_docs} dokumen  ·  {n_terms} term", fg=SUCCESS)
+            self._btn_search.configure(state="normal")
+            self._populate_tfidf_table()
+            if self._last_results is not None:
+                self._render_results(self._last_query, self._last_results,
+                                     self._last_predictions)
+            self._entry.focus_set()
 
     # ── Index loading ─────────────────────────────────────────────────────────
 
@@ -384,9 +474,12 @@ class SearchEngineApp(tk.Tk):
         predictions = predict_word(query, self.index)
 
         # ==========================================
-        # RENDER BOTH
+        # RENDER BOTH (simpan agar bisa render ulang saat ganti tema)
         # ==========================================
 
+        self._last_query       = query
+        self._last_results     = results
+        self._last_predictions = predictions
         self._render_results(query, results, predictions)
 
 
@@ -553,7 +646,7 @@ class SearchEngineApp(tk.Tk):
         top_row.pack(fill="x")
 
         badge_bg = ACCENT if rank == 1 else BG_INPUT
-        badge_fg = BG_DARK if rank == 1 else TEXT_SEC
+        badge_fg = ON_ACCENT if rank == 1 else TEXT_SEC
         tk.Label(top_row, text=f" #{rank} ",
                  bg=badge_bg, fg=badge_fg,
                  font=("Segoe UI Semibold", 9)).pack(side="left", padx=(0, 8))
